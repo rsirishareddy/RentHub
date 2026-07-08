@@ -1,16 +1,65 @@
-# React + Vite
+# 🏠 RentHub - MERN House Rental Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+RentHub is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application that allows users to browse rental houses, book properties, and enables owners to manage their listings.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+### 👤 User
+- User Registration & Login
+- JWT Authentication
+- Browse Available Houses
+- Search Houses by Location
+- Filter Houses by Type
+- Filter Houses by Price
+- Book Rental Houses
+- View Booking Status
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🏡 Owner
+- Add New Houses
+- Update House Price
+- Delete House Listings
+- Manage Rental Properties
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- React Router DOM
+- Axios
+- CSS
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- Bcrypt.js
+
+---
+
+## 📂 Project Structure
+
+```text
+RentHub
+│
+├── RentHub_client
+│   ├── public
+│   ├── src
+│   └── package.json
+│
+├── server
+│   ├── config
+│   ├── controllers
+│   ├── middleware
+│   ├── models
+│   ├── routes
+│   ├── server.js
+│   └── package.json
+│
+└── package.json
